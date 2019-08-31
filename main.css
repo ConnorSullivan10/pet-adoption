@@ -44,3 +44,17 @@ body {
     border-style: groove;
 }
 
+.Dino h3{
+  color: #FF8C00;
+  background-color:  #FFD700;
+}
+
+.Cat h3{
+  color: darkblue;
+  background-color: #00FFFF;
+}
+
+.Dog h3{
+  color: forestgreen;
+  background-color:	#ADFF2F;
+}

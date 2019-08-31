@@ -56,7 +56,7 @@ const pets = [
             for (let i = 0; i < petArr.length; i++) {
                 const pet = petArr[i]
                 domString += `
-                    <div class="pet-card">
+                    <div class="pet-card ${pet.type}">
                         <h2>${pet.name}</h2>
                         <img src=${pet.imageUrl}/>
                         <h4>${pet.color}</h4>
@@ -71,11 +71,12 @@ const pets = [
             const buttonClick = (e) => {
               console.log(e)
               const type = e.target.id
+
               const selectedPetCards = []
               for (let i = 0; i < pets.length; i ++) {
                   const pet = pets[i]
                   if (pet.type === type) {
-                      selectedPetCards.push(pet)
+                      selectedPetCards.push(pet);
                   }
               }
 
@@ -92,8 +93,8 @@ const pets = [
       document.getElementById('Dog').addEventListener('click', buttonClick)
       document.getElementById('Dino').addEventListener('click', buttonClick)
 
-      document.getElementById('Dino').style.background='#FFA500';
+      document.getElementById('Dino').style.background='#FFD700';
       document.getElementById('Cat').style.background='#00FFFF';
-      document.getElementById('Dog').style.background='#90EE90';
+      document.getElementById('Dog').style.background='	#ADFF2F';
 
       petCardPrinter(pets)
