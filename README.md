@@ -1,10 +1,10 @@
 # Pet Adoption
 
 ## Description
-Use the buttons at the top of this page, to organize the pet cards printed by their category type.
+Click the buttons at the top of this page, to organize the printed pet cards by their category type.
 
 ## Screenshots
-![Pet Adoption Preview]()
+![Pet Adoption Preview](https://raw.githubusercontent.com/ConnorSullivan10/pet-adoption/master/screenshots/petbuilder.PNG)
 
 ## How to run
 * Clone down this project
